@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -19,8 +19,8 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+      .sendForm("service_gsfvi0u", "template_ps98byd", form.current, {
+        publicKey: "FFZaAmnJfXg1tl9u2",
       })
       .then(
         () => {

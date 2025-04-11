@@ -4,18 +4,14 @@ const ExperienceTopLeft = () => {
   return (
     <div className="flex flex-col gap-6 w-[300px]">
       <p className="text-orange font-bold uppercase text-3xl font-special text-center">
-        Since 2022
       </p>
-      <div className="flex justify-center items-center gap-4">
-        <ExperienceInfo number="3" text="Years" />
-        <p className="font-bold text-6xl text-lightBrown">-</p>
-        <ExperienceInfo number="23" text="Websites" />
+      <div className="flex justify-center items-center gap-5">
+        <p className="font-bold text-6xl text-lightBrown"></p>
+        <ExperienceInfo number="Built projects."/>
       </div>
       <p className="text-center">
-        With 3 years of experience building dynamic and user-friendly web
-        applications.
+      With experience in developing interactive web experiences and user-friendly applications, I focus on creating engaging user interactions.
       </p>
-      <ExperienceInfo number="$100k" text="Max Budget" />
     </div>
   );
 };
