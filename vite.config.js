@@ -1,9 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base:"/saivineeth-portfolio",
-
-})
+  build: {
+    outDir: 'dist'  // Ensure it's set correctly
+  },
+  base: '/saivineeth-portfolio/' // Add this if your site is hosted on a subpath
+});
