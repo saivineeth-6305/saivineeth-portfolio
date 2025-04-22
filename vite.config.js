@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // Adjust this based on deployment structure
+  base: '/saivineeth-portfolio/', // Replace with your exact repository name
 });
